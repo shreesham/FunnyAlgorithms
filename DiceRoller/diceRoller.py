@@ -15,9 +15,3 @@ while(flag):
 
     for i in range(5):
         print(dice[x][i],dice[y][i])
-
-    print("\n")
-    val = input("Would you like to roll again? y = yes, n = no \n")
-
-    if val.lower() == "n":
-        flag = False
